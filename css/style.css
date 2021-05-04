@@ -1,167 +1,6 @@
-/* all page defaults */
-
-/* *{
-    background: rgb(219, 214, 214);
-} */
-
-body {
-    font-family: "open sans", sans-serif;
-    font-style: normal;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 16px;
-    line-height: 22px;
-}
-
-ul > li {
-    list-style-type: none
-}
-
-/* Default links properties */
-
-a {
-    text-decoration: none;
-    color: #1E0606;
-
-}
-
-/* width 1180 */
-
-.container {
-    max-width: 1180px;
-    width: 100%;
-    margin: 0 auto;
-}
-.outline {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-/* header */
-
-.header {
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    line-height: 19px;
-    text-transform: uppercase;
-}
-
-
-
-.header-logo {
-    margin-right: 60px;
-    /* margin-bottom: -5px; */
-}
-
-.header-logo img {
-    display: block;
-}
-
-
-
-.header-nav {
-    margin: 0 auto 0 20px;
-}
-
-.header-list {
-    display: flex;
-    align-items: center;
-}
-
-.header-item {
-   margin-right: 20px;
-   font-weight: 400;   
-}
-
-.header-contacts-us-wrapper {
-    display: flex;
-    align-items: center;
-}
-
-.header-contact-us {
-    font-weight: 700;
-}
-
-.button-magnifier {
-    width: 60px;
-    border: none;
-    background-color: white;
-}
-
-.header-logo :hover {
-    opacity: 50%;
-}
-
-.header-item:hover {
-    opacity: 50%;
-}
-
-.button-magnifier:hover {
-    opacity: 50%;
-}
-
-.header-contact-us:hover {
-    opacity: 50%;
-}
-
-.header-logo :active {
-    opacity: 20%;
-}
-
-.header-item:active {
-    opacity: 20%;
-}
-
-.button-magnifier:active {
-    opacity: 20%;
-}
-
-.header-contact-us:active {
-    opacity: 20%;
-}
-
 /* main */
 
 /* Banner */
-
-h1 {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-size: 40px;
-    line-height: 110%;
-    font-weight: 700;
-    margin: 0;   
-}
-
-h2 {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-size: 38px;
-    line-height: 46px;
-    font-weight: 700;     
-}
-
-h3 {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-size: 26px;
-    line-height: 32px;
-    font-weight: 700;
-    color: #ffffff;
-    margin: 0;
-}
-
-h4 {
-    font-family: "open sans", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #AAAAAA;
-}
 
 .banner {
     min-width: 1000px;
@@ -177,6 +16,35 @@ h4 {
     color: rgba(30, 6, 6, 0.05);
 }
 
+.banner-burger {
+    padding: 17px 28px;
+}
+
+.banner-burger input[type="radio"] {
+    display: none;
+}
+
+.banner-burger-label {
+    display: block;
+    width: 31px;
+    height: 3px;
+    margin: 0 0 11px 0;
+    background-color:#D6CAC2;
+    cursor: pointer;
+}
+
+.banner-burger-label:hover {
+    background-color:#725F5B;
+}
+
+.banner-burger-label:active {
+    background-color:#725F5B;
+}
+
+.banner-burger input[type="radio"]:checked + .banner-burger-label  {
+    background-color:#725F5B;
+}
+
 .banner-designed {
     font-family: "Crimson Text", serif;
     font-style: italic;
@@ -184,11 +52,6 @@ h4 {
     line-height: 25px;
     font-weight: 400;
 }
-
-.banner-burger {
-    padding: 17px 28px;
-}
-
 .banner-title-block {
     padding: 89px 17px;
     max-width: 40%;
@@ -204,32 +67,6 @@ h4 {
     position: absolute;
     bottom: 0px;
     right: 100px;
-}
-
-
-
-.button {
-    background: #1E0606;
-    color: #fff;
-    font-weight: 700;
-    width: 100%;
-    text-align: center;
-    padding: 9px;
-    border: none;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.button:hover {
-    background: #C29974;
-}
-
-.button:active {
-    background: #CFAF91;
-}
-
-.button:disabled {
-    background: #C1C1C1;
 }
 
 .banner-logo-block {
@@ -260,10 +97,6 @@ h4 {
 
 .buy-now {
     max-width: 140px;
-}
-
-.join {
-    max-width: 81px;
 }
 
 /* section products */
@@ -364,6 +197,8 @@ h4 {
     color: #ffffff;
 }
 
+/* Section Delivery */
+
 .delivery {
     display: flex;
     margin-top: 80px;
@@ -405,6 +240,8 @@ h4 {
     font-weight: 700;
 }
 
+/* Section Brands */
+
 .brands {
     margin-top: 97px;
 }
@@ -414,6 +251,8 @@ h4 {
     justify-content: space-between;
     align-items: center;
 }
+
+/* Section About */
 
 .about {
     display: flex;
@@ -451,114 +290,4 @@ h4 {
     position: absolute;
     bottom: -120px;
     left: 30px;
-}
-
-footer {
-    color: #fff;
-    background-color: #434343;;
-}
-
-.footer-wrapper {
-    display: flex;
-}
-
-.footer-section {
-    width: 33%;
-    min-width: 300px;
-}
-
-.footer-nav {
-    border-top: 1px solid #666666;    
-}
-
-footer a {
-    color: #fff;
-}
-
-.footer-nav-list {
-    line-height: 37px;
-    margin: 28px 0;
-}
-
-.footer-wrapper .footer-section:not(:last-child) {
-    margin-right: 20px;
-}
-
-
-.footer-wrapper-1 {
-    border-bottom: 1px solid #666666;
-}
-
-.footer-wrapper-2 {
-    margin-top: 25px;
-    padding-bottom: 100px;
-}
-
-.raiting-wrapper {
-    display: flex;
-    align-items: center;
-}
-
-.raiting-list {
-    display: flex;
-    padding: 0 25px;
-}
-
-.raiting-list li {
-    padding: 0 3px;
-}
-
-.social-list {
-    display: flex;
-    margin-top: 25px;
-}
-
-.social-list li {
-    padding: 0 10px 0 0;
-}
-
-.social-list li:hover {
-    opacity: 50%;
-}
-
-.social-list li:active {
-    opacity: 20%;
-}
-
-.input-field {
-    border: none;
-    background-color: #666666;
-    width: 299px;
-}
-
-.footer-label-email {
-    display: none;
-}
-
-.form {
-    display: flex;
-    margin-top: 25px;
-}
-
-.dl_digital-link {
-    color: #a2a2a2;
-}
-
-.dl_digital-link:hover {
-    color: #ffffff;
-    text-decoration: underline;
-    
-}
-
-.dl_digital-link:active {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-.footer-nav-list li:hover {
-    opacity: 50%;
-}
-
-.footer-nav-list li:active {
-    opacity: 20%;
 }

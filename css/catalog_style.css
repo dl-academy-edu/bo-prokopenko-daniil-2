@@ -1,0 +1,90 @@
+.products {
+    padding: 0;
+}
+
+.products-list {
+    display: flex;
+    padding: 0;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    max-width: 1080px;
+    min-width: 900px;
+}
+
+.products .products-list:last-child {
+    justify-content: flex-end;
+}
+
+.products-items {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;     
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 270px;
+    margin: 0 10px;
+}
+
+.prod-item-01 {
+    background-color: #DBE4DB;
+    background-image: url(../images/products-apparel_kids.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prod-item-02 {
+    background-color: #EADDD3;
+    background-image: url(../images/products-holiday_shop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prod-item-03 {
+    background-color: #F8F2DA;
+    background-image: url(../images/products-toys.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prod-item-04 {
+    background-color: #D5D4E1;
+    background-image: url(../images/products-accessories.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prod-item-05 {
+    background-color: #F3D0DB;
+    background-image: url(../images/products-sale.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prod-item-06 {
+    background-color: #E5EAF8;
+    background-image: url(../images/products-apparel_adults.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-title {
+    text-align: center;
+    margin: 10px;
+    max-width: 80%;    
+}
+
+.product_description {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 35px;
+}
+
+.product_description-wrapper {
+    width: 1000px;
+}
+
+.product_description-wrapper p, h2 {
+max-width: 680px;
+}

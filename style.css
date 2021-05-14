@@ -52,6 +52,7 @@
     line-height: 25px;
     font-weight: 400;
 }
+
 .banner-title-block {
     padding: 89px 17px;
     max-width: 40%;
@@ -127,36 +128,25 @@
 
 .prod-item-01 {
     background-color: #DBE4DB;
-    background-image: url(../images/products-apparel_kids.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .prod-item-02 {
     background-color: #EADDD3;
-    background-image: url(../images/products-holiday_shop.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .prod-item-03 {
     background-color: #F8F2DA;
-    background-image: url(../images/products-toys.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .prod-item-04 {
     background-color: #D5D4E1;
-    background-image: url(../images/products-accessories.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .product-title {
     text-align: center;
     margin: 10px;
-    max-width: 70%;    
+    max-width: 70%;
+    z-index: 1;   
 }
 
 .list-control-buttons {
@@ -187,11 +177,12 @@
     cursor: pointer;
 }
 
-.products-link:hover {
-    text-decoration: underline;
-    color: #ffffff;
+.product-picture {
+    display: block;
+    position: absolute;  
 }
 
+.products-link:hover,
 .products-link:active {
     text-decoration: underline;
     color: #ffffff;
@@ -236,7 +227,7 @@
 }
 
 .delivery-selected-item {
-    background-color: rgba(112, 187, 220, 0.2);;
+    background-color: rgba(112, 187, 220, 0.2);
     font-weight: 700;
 }
 
@@ -252,12 +243,16 @@
     align-items: center;
 }
 
+.brand-item {
+    cursor: pointer;
+}
+
 /* Section About */
 
 .about {
     display: flex;
-    margin-top: 146px;
-    margin-bottom: 160px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .about-design {
@@ -281,13 +276,13 @@
 }
 
 .about-title-shift {
-    position: absolute;
-    top: -57px;
+    position: relative;
+    top: 52px;
     left: 30px;
 }
 
 .about-map {
-    position: absolute;
-    bottom: -120px;
+    position: relative;
+    bottom: 50px;
     left: 30px;
 }

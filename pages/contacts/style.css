@@ -1,6 +1,5 @@
 .contacts-support-wrapper {
     display: flex;
-
     margin-bottom: 60px;
     justify-content: space-between;
 }
@@ -10,12 +9,11 @@
 .support {
     padding: 0 0 0 20px;
     width: 380px;
-    min-width: 300px;
-    
+    min-width: 300px;    
 }
 
 .support p {
-    margin: 0 0 20px
+    margin: 0 0 20px;
 }
 
 .support-statement {

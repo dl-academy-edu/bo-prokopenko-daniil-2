@@ -29,50 +29,33 @@
 
 .prod-item-01 {
     background-color: #DBE4DB;
-    background-image: url(../images/products-apparel_kids.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .prod-item-02 {
     background-color: #EADDD3;
-    background-image: url(../images/products-holiday_shop.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .prod-item-03 {
     background-color: #F8F2DA;
-    background-image: url(../images/products-toys.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .prod-item-04 {
     background-color: #D5D4E1;
-    background-image: url(../images/products-accessories.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .prod-item-05 {
     background-color: #F3D0DB;
-    background-image: url(../images/products-sale.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .prod-item-06 {
     background-color: #E5EAF8;
-    background-image: url(../images/products-apparel_adults.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .product-title {
     text-align: center;
     margin: 10px;
-    max-width: 80%;    
+    max-width: 80%;  
+    z-index: 1;    
 }
 
 .product_description {
@@ -87,4 +70,15 @@
 
 .product_description-wrapper p, h2 {
 max-width: 680px;
+}
+
+.product-picture {
+    display: block;
+    position: absolute;  
+}
+
+.products-link:hover,
+.products-link:active {
+    text-decoration: underline;
+    color: #ffffff;
 }

@@ -29,6 +29,7 @@ a {
     width: 100%;
     margin: 0 auto;
 }
+
 .outline {
     list-style-type: none;
     padding: 0;
@@ -203,11 +204,13 @@ h6 {
 
 footer {
     color: #fff;
-    background-color: #434343;;
+    background-color: #434343;
+    padding-top: 80px;
 }
 
 .footer-wrapper {
     display: flex;
+    /* padding-bottom: 50px; */
 }
 
 .footer-section {
@@ -231,7 +234,6 @@ footer a {
 .footer-wrapper .footer-section:not(:last-child) {
     margin-right: 20px;
 }
-
 
 .footer-wrapper-1 {
     border-bottom: 1px solid #666666;
@@ -313,6 +315,11 @@ footer a {
     border: none;
     background-color: #666666;
     width: 299px;
+    padding-left: 15px;
+}
+
+.footer-input-field::placeholder {
+    color: #EBEBEB;
 }
 
 .footer-label-email {

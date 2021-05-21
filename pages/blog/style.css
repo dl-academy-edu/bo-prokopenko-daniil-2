@@ -1,5 +1,14 @@
+.blogs {
+    margin-bottom: 32px;
+}
+
 .container-blogs {
     max-width: 1200px;
+}
+
+.blogs-title {
+    margin-top: 29px;
+    margin-bottom: 30px;
 }
   
 .blogs-list {
@@ -9,7 +18,7 @@
 }
 
 .blogs-items {
-    margin: 20px 10px;
+    margin: 18px 10px 15px;
     display: block;
     width: 380px;
 }
@@ -19,7 +28,7 @@
 }
 
 .blogs-date {
-    padding: 20px 0;
+    padding: 20px 0 8px;
     margin: 0;
     color: #818181;
 }
@@ -27,7 +36,7 @@
 .blogs-text {
     font-size: 18px;
     line-height: 25px;
-    padding: 15px 0;
+    padding: 15px 0 0;
     margin: 0;
 }
 

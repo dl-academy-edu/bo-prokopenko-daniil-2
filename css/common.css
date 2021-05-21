@@ -1,12 +1,13 @@
 /* all page defaults */
 
 body {
-    font-family: "open sans", sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     margin: 0;
     box-sizing: border-box;
     font-size: 16px;
     line-height: 22px;
+    font-weight: 400;
 }
 
 ul > li {
@@ -37,7 +38,7 @@ a {
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     text-transform: uppercase;
     font-size: 40px;
     line-height: 110%;
@@ -46,7 +47,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     text-transform: uppercase;
     font-size: 38px;
     line-height: 46px;
@@ -54,7 +55,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     text-transform: uppercase;
     font-size: 26px;
     line-height: 32px;
@@ -64,7 +65,7 @@ h3 {
 }
 
 h4 {
-    font-family: "open sans", sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -73,7 +74,7 @@ h4 {
 }
 
 h5 {
-    font-family: "open sans", sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -83,7 +84,7 @@ h5 {
 }
 
 h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     font-size: 24px;
     line-height: 31px;
     font-weight: 700;
@@ -93,6 +94,10 @@ h6 {
 .button {
     background: #1E0606;
     color: #fff;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;        
+    font-size: 16px;
+    line-height: 22px;
     font-weight: 700;
     width: 100%;
     text-align: center;
@@ -101,6 +106,7 @@ h6 {
     text-transform: uppercase;
     cursor: pointer;
     margin: 0;
+    height: 40px;
 }
 
 .button:hover {
@@ -131,7 +137,7 @@ h6 {
 }
 
 .header-logo {
-    margin-right: 60px;
+    margin-right: 40px;
 }
 
 .header-logo img {
@@ -155,6 +161,7 @@ h6 {
 .header-contacts-us-wrapper {
     display: flex;
     align-items: center;
+    word-spacing: 4px;
 }
 
 .header-contact-us {
@@ -166,6 +173,8 @@ h6 {
     border: none;
     background-color: white;
     cursor: pointer;
+    padding: 0;
+    margin-top: 5px;
 }
 
 .header-logo :hover {
@@ -210,7 +219,6 @@ footer {
 
 .footer-wrapper {
     display: flex;
-    /* padding-bottom: 50px; */
 }
 
 .footer-section {
@@ -228,7 +236,7 @@ footer a {
 
 .footer-nav-list {
     line-height: 37px;
-    margin: 28px 0;
+    margin: 23px 0 19px;
 }
 
 .footer-wrapper .footer-section:not(:last-child) {
@@ -240,7 +248,7 @@ footer a {
 }
 
 .footer-wrapper-2 {
-    margin-top: 25px;
+    margin-top: 24px;
     padding-bottom: 100px;
 }
 
@@ -278,7 +286,7 @@ footer a {
 
 .footer-rating-title {
     color: #fff;
-    margin-right: 20px;
+    margin-right: 24px;
     font-size: 16px;
 }
 
@@ -357,7 +365,7 @@ footer a {
 /* breadcrumbs */
 
 .breadcrumbs {
-    margin: 15px 0 50px;
+    margin: 18px 0 28px;
 }
 
 .breadcrumbs-list {
@@ -371,7 +379,7 @@ footer a {
 
 .breadcrumbs-item {
     display: flex;
-    font-family: "Crimson Text", serif;
+    font-family: "Crimson Text", "Times New Roman", serif;
     font-style: italic;
     font-size: 20px;
     line-height: 25px;
@@ -379,7 +387,7 @@ footer a {
 
 .breadcrumbs-item:not(:last-child)::after {
     content: url(../images/arrow-divider.svg);
-    margin: 0 20px;
+    margin: 0 21px;
 }
 
 /* page selection */
@@ -387,7 +395,7 @@ footer a {
 .page-selecting {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 58px;
 }
 
 .page-selecting-button {
@@ -407,9 +415,9 @@ footer a {
 }
 
 .paging-label {
-    width: 80px;
+    width: 75px;
     height: 30px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     font-weight: 700;
     line-height: 30px;
     text-align: center;        
@@ -436,9 +444,8 @@ footer a {
 /* contacts-form */
 
 .contact-form {
-
     box-sizing: border-box;  
-    width: 680px;
+    min-width: 680px;
     background: #E5EAF8;
     padding: 42px 40px;
 }
@@ -448,14 +455,14 @@ footer a {
     display: flex;
     margin: 0;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
 }
 
 .contact-form label {
     font-size: 14px;
     line-height: 19px;
     color: #1E0606;
-    margin-bottom: 6px;
+    margin-bottom: 3px;
 }
 
 .contact-form input,
@@ -508,6 +515,10 @@ footer a {
     justify-content: space-between;
 }
 
+.contact-form .contact-confirmation {
+    margin-bottom: 17px;
+}
+
 .contact-confirmation input[type="checkbox"] {
     display: none;
 }
@@ -515,9 +526,9 @@ footer a {
 .confirm-label {
     display: block;
     background: url(../images/checkbox.svg) no-repeat 0 0;
-    padding-left: 30px;
+    padding-left: 35px;
     cursor: pointer;
-    margin: 15px 0;
+    margin: 0px 0;
 }
 
 .contact-confirmation input[type="checkbox"]:checked + .confirm-label {
@@ -527,7 +538,6 @@ footer a {
 .contact-submit {
     max-width: 106px;
 }
-
 
 /* modal */
 

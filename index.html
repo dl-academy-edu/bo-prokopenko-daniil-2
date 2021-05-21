@@ -5,9 +5,9 @@
     <title>Design Life Kids</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/common.min.css">
+    <link rel="stylesheet" href="style.min.css">
 </head>
 <body>
     <header class="header container">        
@@ -23,7 +23,7 @@
                     <a href="pages/catalog/index.html">Catalog</a>
                 </li>
                 <li class="header-item">
-                    <a href="#">About as</a>
+                    <a href="#">About us</a>
                 </li>
             </ul>
         </nav>
@@ -43,14 +43,16 @@
             <div class="banner-logo-block">
                 <div class="banner-burger">
                     <div class="banner-page-number">01</div>
-                    <input name="burger" value="1" id="burger_1" type="radio" checked/>
-                    <label for="burger_1" class="banner-burger-label"></label>
-                    <input name="burger" value="2" id="burger_2" type="radio" />
-                    <label for="burger_2" class="banner-burger-label"></label>
-                    <input name="burger" value="3" id="burger_3" type="radio" />
-                    <label for="burger_3" class="banner-burger-label"></label>
-                    <input name="burger" value="4" id="burger_4" type="radio" />
-                    <label for="burger_4" class="banner-burger-label"></label>
+                    <div class="banner-burger-wrapper">
+                        <input name="burger" value="1" id="burger_1" type="radio" checked/>
+                        <label for="burger_1" class="banner-burger-label"></label>
+                        <input name="burger" value="2" id="burger_2" type="radio" />
+                        <label for="burger_2" class="banner-burger-label"></label>
+                        <input name="burger" value="3" id="burger_3" type="radio" />
+                        <label for="burger_3" class="banner-burger-label"></label>
+                        <input name="burger" value="4" id="burger_4" type="radio" />
+                        <label for="burger_4" class="banner-burger-label"></label>
+                    </div>
                 </div>
                 <div class="banner-title-block">
                     <h1>The ooh noo collection</h1>
@@ -146,7 +148,7 @@
                     </li>
                 </ul>
                 <p class="delivery-text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                <p class="delivery-text">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
+                <p class="delivery-text">What started as an outlet to deal with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
                 <button class="button learn-more">
                     Learn more
                 </button>
@@ -264,17 +266,13 @@
         <div class="footer-wrapper footer-wrapper-2 container">
             <div class="footer-section footer-rating_block">
                 <input name="rating" value="5" id="rating_5" type="radio" />
-                <label for="rating_5" class="footer-rating_label"></label>
-               
+                <label for="rating_5" class="footer-rating_label"></label>               
                 <input name="rating" value="4" id="rating_4" type="radio" />
-                <label for="rating_4" class="footer-rating_label"></label>
-               
+                <label for="rating_4" class="footer-rating_label"></label>               
                 <input name="rating" value="3" id="rating_3" type="radio" />
-                <label for="rating_3" class="footer-rating_label"></label>
-               
+                <label for="rating_3" class="footer-rating_label"></label>               
                 <input name="rating" value="2" id="rating_2" type="radio" />
-                <label for="rating_2" class="footer-rating_label"></label>
-               
+                <label for="rating_2" class="footer-rating_label"></label>               
                 <input name="rating" value="1" id="rating_1" type="radio" />
                 <label for="rating_1" class="footer-rating_label"></label>
                 <div class="footer-rating-title">Company Rating</div>
@@ -287,7 +285,6 @@
             </div>                    
         </div>        
     </footer>
-
     <div class="popup-overlay"></div>
     <div class="popup-form">
         <button class="popup-close">
@@ -321,6 +318,6 @@
             <button class="button contact-submit">Submit</button>			
         </form>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/script.min.js"></script>
 </body>
 </html>

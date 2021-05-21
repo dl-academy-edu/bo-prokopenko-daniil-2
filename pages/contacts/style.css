@@ -1,5 +1,14 @@
+.contacts {
+    margin-top: 29px; 
+}
+
+.contacts-title {
+    word-spacing: 12px;
+}
+
 .contacts-support-wrapper {
     display: flex;
+    margin-top: 50px;
     margin-bottom: 60px;
     justify-content: space-between;
 }
@@ -17,7 +26,7 @@
 }
 
 .support-statement {
-    font-family: Montserrat;
+    font-family: "Montserrat", Arial, sans-serif;;
     font-style: normal;
     font-weight: 600;
     font-size: 26px;

@@ -1,13 +1,18 @@
 .products {
     padding: 0;
+    margin-top: 29px;
+}
+
+.product-list-wrapper {
+    margin-top: 50px;
 }
 
 .products-list {
     display: flex;
     padding: 0;
     margin-left: -10px;
-    margin-bottom: 20px;
-    max-width: 1080px;
+    margin-bottom: 23px;
+    max-width: 1100px;
     min-width: 900px;
 }
 
@@ -61,15 +66,23 @@
 .product_description {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 35px;
+    margin-bottom: 38px;
 }
 
 .product_description-wrapper {
-    width: 1000px;
+    width: 980px;
 }
 
 .product_description-wrapper p, h2 {
 max-width: 680px;
+}
+
+.product_description-title {
+    margin: 32px 0 26px;
+}
+
+.product_description-details {
+    margin: 15px 0;
 }
 
 .product-picture {

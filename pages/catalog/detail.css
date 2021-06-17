@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .toys-title {
     margin-top: 29px
 }
@@ -5,6 +12,8 @@
 /* Control panel */
 
 .product_control_panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -103,7 +112,8 @@
 .amount-block {
     width: 240px;
     min-width: 170px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 .amount-block input[type="radio"] {
@@ -111,6 +121,8 @@
 }
 
 .amount-block-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 16px;
 }
@@ -146,6 +158,8 @@
 
 .cost-block-value-limits-wrapper {
     padding: 9px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -272,8 +286,11 @@
 }
 
 .goods-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;     
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;     
     padding: 0;
 }
 
@@ -287,7 +304,8 @@
 }
 
 .goods-button-wrapper {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 380px;
     height: 385px;
     padding: 89px 0;  
@@ -298,8 +316,14 @@
     position: absolute;
     left: 0;
     top: 0;
-    z-index: -1;
+    z-index: -1;    
 }
+
+.goods-picture img {
+    display: block;
+    background-color: #F0F0F0;
+}
+
 
 .goods-button {
     width: 207px;

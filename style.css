@@ -253,10 +253,13 @@
     margin-top: 74px;
 }
 
-.delivery-image img {
-    display:block;
+.delivery-image {
+    display: block;
     background-color: #C4E0EB;
+    width: 480px;
+    height: 559px;
 }
+
 
 .delivery-wrapper {
     padding: 10px 30px 0 0;
@@ -383,9 +386,5 @@
     position: relative;
     bottom: 80px;
     left: 30px;
-    
-}
-
-.about-map iframe {
-    background-color: #EDEDEE;
+    background-color: #EDEDEE;    
 }
